@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/baseline_report_problem_light_blue_800_36dp.xml" value="0.19074074074074074" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1859375" />
+        <entry key="app/src/main/res/layout/item_recycler_description.xml" value="0.25679347826086957" />
+        <entry key="app/src/main/res/layout/launch_date_item.xml" value="0.27717391304347827" />
+        <entry key="app/src/main/res/layout/launch_description_item.xml" value="0.12447916666666667" />
+        <entry key="app/src/main/res/layout/launches_chart_item.xml" value="0.27717391304347827" />
+        <entry key="app/src/main/res/layout/rocket_launch_details_fragment.xml" value="0.2817028985507246" />
+        <entry key="app/src/main/res/layout/rocket_launch_details_list_item.xml" value="0.27717391304347827" />
+        <entry key="app/src/main/res/layout/rocket_list_item.xml" value="0.1859375" />
+        <entry key="app/src/main/res/layout/rocketlist_fragment.xml" value="0.26403985507246375" />
+        <entry key="app/src/main/res/layout/welcome_fragment.xml" value="0.18385416666666668" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

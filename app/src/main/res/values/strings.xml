@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SpaceXDemo</string>
+    <string name="unknown">Unknown</string>
+    <string name="number_of_launches">Number of launches</string>
+    <string name="done">Done</string>
+    <string name="welcome_message">Thank you for choosing this app.</string>
+    <string name="active_rockets">Active</string>
+</resources>

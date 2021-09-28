@@ -1,0 +1,36 @@
+ext {
+    // Android
+    minimumSdkVersion = 23
+    targetSdkVersion = 30
+    versionCode = 1
+    versionName = "1.0"
+    androidCompileSdkVersion = 30
+    testInstrumentationRunner = "android.support.test.runner.AndroidJUnitRunner"
+
+    androidAppCompatVersion = '1.3.1'
+    materialDesignVersion = '1.4.0'
+    constraintLayoutVersion = '2.1.0'
+    androidXNavigationVersion = '2.3.5'
+
+    kotlinVersion = '1.5.21'
+    kotlinCore = '1.6.0'
+    daggerVersion = '2.35.1'
+    roomVersion = '2.3.0'
+    okHttpVersion = '3.11.0'
+    retrofitVersion = '2.9.0'
+    gsonVersion = '2.7'
+    coroutinesVersion = '1.3.9'
+    recyclerviewVersion = '1.2.1'
+    cardViewVersion = '1.0.0'
+    glideVersion = '4.12.0'
+    rxJavaVersion = '2.2.10'
+    rxAndroidVersion = '2.1.1'
+    mpandroidchartVersion = 'v3.1.0'
+    stickyHeadersVersion = '0.6.2'
+
+    junitVersion = '4.13.2'
+    junitExtVersion = '1.1.3'
+    mockitoKotlinVersion = '3.2.0'
+    mockkVersion = '1.9'
+    coreTestingVersion = '1.1.1'
+}

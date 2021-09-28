@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/spacex_navigation"
+    app:startDestination="@id/rocketListFragment">
+
+    <fragment
+        android:id="@+id/rocketListFragment"
+        android:name="com.spacexapidemo.presentation.ui.view.rocket.RocketListFragment"
+        android:label="RocketListFragment" >
+        <action
+            android:id="@+id/action_rocketListFragment_to_rocketLaunchDetailsFragment"
+            app:destination="@id/rocketLaunchDetailsFragment"
+            app:enterAnim="@anim/enter"
+            app:exitAnim="@anim/exit"
+            app:popEnterAnim="@anim/pop_enter"
+            app:popExitAnim="@anim/pop_exit"/>
+    </fragment>
+    <fragment
+        android:id="@+id/rocketLaunchDetailsFragment"
+        android:name="com.spacexapidemo.presentation.ui.view.launches.LaunchDetailsFragment"
+        android:label="RocketLaunchDetailsFragment" >
+        <argument
+            android:name="rocketItem"
+            app:argType="com.spacexapidemo.domain.entity.RocketEntity" />
+    </fragment>
+</navigation>
